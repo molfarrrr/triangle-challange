@@ -1,0 +1,13 @@
+.triangle-side {
+  margin-bottom: 10px;
+
+  &.invalid {
+    .error {
+      margin-top: 5px;
+    }
+
+    input {
+      outline: red 1px solid;
+    }
+  }
+}
